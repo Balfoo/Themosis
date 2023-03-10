@@ -1,0 +1,13 @@
+{
+    "name": "themosis/latest-photos",
+    "title": "Gallery Photo",
+    "description": "Liste les derniers photo",
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["galerie", "photos"],
+    "acf": {
+      "mode": "previews",
+      "renderCallback": "\\Theme\\Providers\\PhotoProvider::render"
+    },
+    "align": "full"
+  }

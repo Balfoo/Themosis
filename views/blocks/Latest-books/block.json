@@ -1,0 +1,13 @@
+{
+    "name": "themosis/latest-books",
+    "title": "Derniers livres",
+    "description": "Liste les derniers livres",
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["books", "livres"],
+    "acf": {
+      "mode": "previews",
+      "renderCallback": "\\Theme\\Providers\\BlockProvider::render"
+    },
+    "align": "full"
+  }
