@@ -1,0 +1,13 @@
+{
+    "name": "themosis/latest-project",
+    "title": "Latest project",
+    "description": "Liste les derniers projet",
+    "category": "formatting",
+    "icon": "admin-comments",
+    "keywords": ["projet", "recent"],
+    "acf": {
+      "mode": "previews",
+      "renderCallback": "\\Theme\\Providers\\ProjectProvider::render"
+    },
+    "align": "full"
+  }

@@ -31,6 +31,7 @@ return [
         Theme\Providers\GalleryProvider::class,
         Theme\Providers\BlockProvider::class,
         Theme\Providers\PhotoProvider::class,
+        Theme\Providers\ProjectProvider::class,
         
     ],
 
